@@ -1,6 +1,6 @@
 <?php
 
-namespace Rodrigotutz\Controller;
+namespace Rodrigotutz;
 
 use League\Plates\Engine;
 

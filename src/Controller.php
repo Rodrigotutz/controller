@@ -152,6 +152,11 @@ abstract class Controller {
                 $this->message = "Arquivo Importado com sucesso!";
                 $this->class = "success";
             }
+
+            if($_GET['success'] === "email-send") {
+                $this->message = "Email enviado com sucesso";
+                $this->class = "success";
+            }
         }  
     }
 }

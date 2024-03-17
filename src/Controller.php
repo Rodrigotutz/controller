@@ -118,6 +118,10 @@ abstract class Controller {
                 $this->message = "Usuário deletado!";
             }
             
+            if($_GET['success'] === "user-updated") {
+                $this->message = "Usuário atualizado!";
+            }
+            
             if($_GET['success'] === "call-updated") {
                 $this->message = "Chamado atualizado!";
             }

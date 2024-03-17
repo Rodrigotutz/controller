@@ -113,6 +113,10 @@ abstract class Controller {
             if($_GET['success'] === "call-deleted") {
                 $this->message = "Chamado deletado!";
             }
+
+            if($_GET['success'] === "user-deleted") {
+                $this->message = "Usuário deletado!";
+            }
             
             if($_GET['success'] === "call-updated") {
                 $this->message = "Chamado atualizado!";

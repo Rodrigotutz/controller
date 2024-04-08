@@ -30,6 +30,9 @@ abstract class Controller {
             if($_GET['error'] === "invalid-fields") {
                 $this->message = "Preencha todos os campos";
             }
+            if($_GET['error'] === "invalid-credentials") {
+                $this->message = "Credenciais inválidas!";
+            }
             if($_GET['error'] === "invalid-auth") {
                 $this->message = "E-mail ou senha inválido(os)";
                 
